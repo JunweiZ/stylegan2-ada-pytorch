@@ -23,6 +23,8 @@ from torch_utils.ops import grid_sample_gradfix
 
 import legacy
 from metrics import metric_main
+import gc
+gc.collect()
 
 #----------------------------------------------------------------------------
 
